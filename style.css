@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+article {
+  padding-top: 50px;
+  width: 672px;
+  margin: auto;
+}
+
+.preview {
+  width: 90%;
+  max-width: 700px;
+  border: 1px solid #4D4E53;
+  border-radius: 2px;
+  padding: 10px 14px 10px 10px;
+  margin: auto;
+  background: linear-gradient(pink,white)
+}
+
+h1 {
+  color: firebrick;
+  font-size: 2.2em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 0;
+  line-height: 3em;
+  display: block;
+  height: 110px;
+  border-bottom: 5px double darkslategrey;
+  text-align: center;
+}
+
+h1:hover {
+  font-size: 3em;
+  text-transform: uppercase;
+  color: crimson;
+  line-height: 2.25em;
+  background: rgba(50, 50, 50, 0.25);
+  border-radius: 25px;
+  box-shadow: 0px 5px 25px;
+}
+
+.text {
+  margin: 35.2px 12px;
+}
+
+h2 {
+  font-size: 1.25em;
+  margin-top: 0px;
+}
+
+.job-title {
+  color: darkslategray;
+  font-weight: bold;
+}
+
+address {
+  font-style: normal;
+  background-color: #4D4E53;
+  padding: 15px;
+  color: white;
+  border-radius: 15px;
+}
+
+ul {
+  list-style-type: thai;
+  margin-bottom: 0;
+}
+
+a:link, a:visited {
+  color: palevioletred;
+}
+
+a:hover {
+  text-decoration: none;
+}
